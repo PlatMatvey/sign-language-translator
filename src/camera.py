@@ -1,7 +1,7 @@
 import cv2
 import pygame
 import numpy as np
-from preprocessing import process_frame
+from src.preprocessing import process_frame
 
 # Открываем камеру
 cam = cv2.VideoCapture(0, cv2.CAP_V4L2)
