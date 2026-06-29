@@ -8,8 +8,6 @@ TRAIN_PATH = 'data/raw/archive/asl_alphabet_train/asl_alphabet_train'
 PROCESSED_PATH = 'data/processed'
 
 def extract_landmarks():
-    """Извлекает landmarks из всех фото и сохраняет в файлы"""
-    
     os.makedirs(PROCESSED_PATH, exist_ok=True)
     
     labels = sorted(os.listdir(TRAIN_PATH))
