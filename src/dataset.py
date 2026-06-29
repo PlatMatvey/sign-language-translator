@@ -1,6 +1,6 @@
 import os
 import numpy as np
-from preprocessing import process_frame
+from src.preprocessing import process_frame
 import cv2
 
 # Пути к данным
